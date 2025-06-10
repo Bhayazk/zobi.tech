@@ -143,20 +143,20 @@ module.exports = [ {
   command: ["script"],
   operate: async ({ m, Kango, reply }) => {
     try {
-      const repoUrl = "https://github.com/OfficialKango/KANGO-XMD";
+      const repoUrl = "https://github.com/Bhayazk/zobi.tech";
       const zipUrl = `${repoUrl}/archive/refs/heads/main.zip`;
 
       // Fetch repo details to get avatar
-      const { data: repo } = await axios.get("https://api.github.com/repos/OfficialKango/KANGO-XMD");
+      const { data: repo } = await axios.get("https://api.github.com/repos/Bhayazk/zobi.tech");
       const { data: avatarBuffer } = await axios.get(repo.owner.avatar_url, {
         responseType: "arraybuffer"
       });
 
       const caption =
-        `*KANGO-XMD Repository*\n\n` +
+        `*𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉 Repository*\n\n` +
         `🔗 *Repository URL*: ${repoUrl}\n` +
         `📂 *Branch*: main\n` +
-        `📦 *File*: KANGO-XMD-main.zip\n\n` +
+        `📦 *File*: zobi.tech-main.zip\n\n` +
         `The ZIP file contains the full repository content.\n\n` +
         `Sending the file shortly...`;
 
@@ -165,7 +165,7 @@ module.exports = [ {
         text: caption,
         contextInfo: {
           externalAdReply: {
-            title: "KANGO-XMD GitHub Repo",
+            title: "𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉 GitHub Repo",
             body: "Download the source code here",
             mediaType: 1,
             thumbnail: Buffer.from(avatarBuffer),
@@ -180,7 +180,7 @@ module.exports = [ {
       // Send the ZIP file
       await Kango.sendMessage(m.chat, {
         document: zipBuffer,
-        fileName: "KANGO-XMD-main.zip",
+        fileName: "zobi.tech-main.zip",
         mimetype: "application/zip"
       }, { quoted: m });
 
@@ -206,11 +206,9 @@ module.exports = [ {
 ┃ 💸 *Want to support us?*
 ┃ If you wish to donate...❤🧡💛
 ┃ ━━━━━━━━━━━━━━━━━━━
-┃ 🇬🇭 *Owner:* *𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉*
-┃ 💰 *MTN-Momo:* 0257767765
-┃ 💸 *Voda-Cash:* 0509977126
-┃ 🪙 *Binance-ID:* 762761682
-┃ 🪀 *WhatsApp:* 233509977126
+┃ PK *Owner:* *𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉*
+┃ 🪙 *Binance-ID:* 526888093
+┃ 🪀 *WhatsApp:* 923318555417
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
 ${userGreeting}
@@ -249,7 +247,7 @@ ${userGreeting}
   }) => {
     try {
       // Fetch repo data from GitHub
-      const { data: repo } = await axios.get("https://api.github.com/repos/OfficialKango/KANGO-XMD");
+      const { data: repo } = await axios.get("https://api.github.com/repos/Bhayazk/zobi.tech");
 
       // Fetch the repo owner's avatar image
       const { data: avatarBuffer } = await axios.get(repo.owner.avatar_url, {
