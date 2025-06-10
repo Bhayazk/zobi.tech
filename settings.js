@@ -2,7 +2,7 @@
 
 // @project_name : 𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉  
 // @author : 𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉
-// @telegram : http://t.me/official_kango
+// @facebook :https://www.facebook.com/zobitech
 // @github : Bhayazk
 // @whatsapp : +923318555417
 
@@ -51,7 +51,7 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
+global.plink = process.env.PLINK || "https://www.youtube.com/@NoobZobi"
 
 //------------------[ WATERMARK ]--------------------//
 
