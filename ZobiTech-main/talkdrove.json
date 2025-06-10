@@ -1,0 +1,52 @@
+
+{
+    "bot-name": "𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉",
+    "description": "𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉 v2 made with love from creator in Pakistan (𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉)",
+    "logo": "https://files.catbox.moe/vikf6c.jpg",
+    "keywords": ["bot"],
+    "documentation-link": "https://kango-ef1f620b32d8.herokuapp.com/pair",
+    "owner-verification":"officialkango73@gmail.com",
+  
+"env": {
+      "SESSION_ID": {
+        "description": "Put your SESSION_ID here. Make sure it starts with KANGO~, or get session id from here, https://adiza-session.onrender.com",
+        "value":"",
+        "required": true
+        
+        },
+    "OWNER_NUMBER": {
+      "description": "923318555417",
+      "value": "923318555417",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Enter your name here",
+      "value": "𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉",
+      "required": true
+    },
+    "STICKER_PACK_NAME": {
+      "description": "Sticker pack name",
+      "value": "𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉",
+      "required": true
+    },
+    "STICKER_AUTHOR_NAME": {
+      "description": "Sticker author name",
+      "value": "𝒁𝒐𝒃𝒊 𝑻𝒆𝒄𝒉",
+      "required": true
+ 
+    },
+    "TIMEZONE": {
+      "description": "Enter your timezone here. Google or don't edit if you don't know!",
+      "value": "Africa/Accra",
+      "required": false
+    },
+   "GITHUB_TOKEN": {
+  "description": "IMPORTANT: Follow these steps to generate your GitHub token correctly(Bot will not save settings without it!). Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.",
+  "value": "",
+  "required": false
+        
+        
+      }
+    }
+  
+  }  
