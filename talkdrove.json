@@ -5,7 +5,7 @@
     "logo": "https://files.catbox.moe/vikf6c.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://kango-ef1f620b32d8.herokuapp.com/pair",
-    "owner-verification":"officialkango73@gmail.com",
+    "owner-verification":"zobifast@gmail.com",
   
 "env": {
       "SESSION_ID": {
@@ -37,7 +37,7 @@
     },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google or don't edit if you don't know!",
-      "value": "Africa/Accra",
+      "value": "Asia",
       "required": false
     },
    "GITHUB_TOKEN": {
