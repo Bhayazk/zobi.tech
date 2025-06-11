@@ -80,6 +80,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt install git nodejs ffmpeg lib
 
 > After pairing the bot using [this link](https://pair-site-af6b75949fa8.herokuapp.com/pair):
 
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/Bhayazk/zobi.tech/archive/refs/heads/main.zip)
+
 1. Copy the **Session ID**.
 2. Open the `settings.js` file inside the `zobi.tech` folder.
 3. Paste the Session ID at the line: `SESSION_ID = 'your_session_here'`
