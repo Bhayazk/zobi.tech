@@ -27,7 +27,7 @@
 
 > Use the link below to generate your session ID (pair with WhatsApp):
 
-🔗 **[Click Here to Pair](https://pair-site-af6b75949fa8.herokuapp.com/)**
+🔗 **[Click Here to Pair](https://pair-site-af6b75949fa8.herokuapp.com/pair)**
 
 ---
 
@@ -78,7 +78,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install git nodejs ffmpeg lib
 
 ## 🔑 After Pairing
 
-> After pairing the bot using [this link](https://pair-site-af6b75949fa8.herokuapp.com/):
+> After pairing the bot using [this link](https://pair-site-af6b75949fa8.herokuapp.com/pair):
 
 1. Copy the **Session ID**.
 2. Open the `settings.js` file inside the `zobi.tech` folder.
